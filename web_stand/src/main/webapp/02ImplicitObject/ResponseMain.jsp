@@ -10,7 +10,7 @@
 	<h2>1.로그인 폼</h2>
 	<%
 	String loginErr = request.getParameter("loginErr");
-	if(loginErr != null) out.print("로그인 실피ㅐ");
+	if(loginErr != null) out.print("로그인 실패");
 	%>
 	<form action="./ResponseLogin.jsp" method="post">
 		아이디 : <input type="text" name="user_id"><br>
