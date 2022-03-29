@@ -28,7 +28,8 @@
 	}
 	%>
 	<h2>3. 페이지 이동 후 쿠키값 확인하기</h2>
-	<a href="CookieResult.jsp">
+	<a href="CookieResult.
+	jsp">
 		다음 페이지에서 쿠키값 확인하기
 	</a>
 </body>
