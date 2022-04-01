@@ -35,7 +35,7 @@
 		<input type="submit" value="로그인하기">
 	</form>	
 	<%
-	} else {
+	} else {//로그인 된 상태
 	%>
 		<%= session.getAttribute("UserName") %>회원님, 로그인하셨습니다.
 		<a href="Logout.jsp">[로그아웃]</a>
