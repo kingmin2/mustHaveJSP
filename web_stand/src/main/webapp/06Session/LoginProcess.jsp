@@ -8,7 +8,7 @@
 String userId = request.getParameter("user_id");
 String userPwd = request.getParameter("user_pw");
 
- 
+//web.xml 에서 가져온 데이터 베이스 연결 정보 
 String oracleDriver = application.getInitParameter("OracleDriver");
 String oracleURL = application.getInitParameter("OracleURL");
 String oracleId = application.getInitParameter("OracleId");
