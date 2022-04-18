@@ -1,5 +1,9 @@
+<%@page import="model1.BoardDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	BoardDao bd = BoardDao.getInstance();
+%>
 <!DOCTYPE html>
 <html>
 <head>
